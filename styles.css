@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+
+.contain{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	width: 500 px;
+	display:flex;
+	flex-direction:column;
+	margin:0 100px;
+}
+
+img{
+	
+	width:400px;
+	align-self:center;
+	padding-top:40px
+}
+h1,p,button{
+	text-align:center;
+}
+h1{
+	font-weight:bolder;
+	font-size:50px;
+	margin:5px;
+}
+
+p{
+	margin:0px;
+	font-size:30px;
+	font-weight:bold;
+	
+}
+#bt{
+	padding:10px 30px;
+	margin:10px;
+	background-color: red;
+	color:white;
+	border-radius: 10px
+}
+
